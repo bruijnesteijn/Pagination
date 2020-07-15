@@ -1,8 +1,9 @@
 //
 //  AppDelegate.swift
-//  Pagination
+//  SwiftUIAdvancedUIKit
 //
-//  Created by Bart Bruijnesteijn on 15/07/2020.
+//  Created by Bart Bruijnesteijn on 11/04/2020.
+//  Copyright © 2020 Bart Bruijnesteijn. All rights reserved.
 //
 
 import UIKit
@@ -14,6 +15,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        UINavigationBar.appearance().largeTitleTextAttributes = [NSAttributedString.Key.foregroundColor:UIColor(named: "AccentColor") ?? UIColor.black]
+        UINavigationBar.appearance().titleTextAttributes = [NSAttributedString.Key.foregroundColor:UIColor(named: "AccentColor") ?? UIColor.white]
+
         return true
     }
 

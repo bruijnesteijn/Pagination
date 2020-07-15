@@ -10,9 +10,13 @@
 		74BDC31724BF23CC0016432D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BDC31624BF23CC0016432D /* AppDelegate.swift */; };
 		74BDC31924BF23CC0016432D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BDC31824BF23CC0016432D /* SceneDelegate.swift */; };
 		74BDC31B24BF23CC0016432D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BDC31A24BF23CC0016432D /* ContentView.swift */; };
-		74BDC31D24BF23CE0016432D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74BDC31C24BF23CE0016432D /* Assets.xcassets */; };
 		74BDC32024BF23CE0016432D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74BDC31F24BF23CE0016432D /* Preview Assets.xcassets */; };
 		74BDC32324BF23CE0016432D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74BDC32124BF23CE0016432D /* LaunchScreen.storyboard */; };
+		74BDC32C24BF24030016432D /* Application.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74BDC32A24BF24030016432D /* Application.xcassets */; };
+		74BDC32D24BF24030016432D /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74BDC32B24BF24030016432D /* Colors.xcassets */; };
+		74BDC32F24BF24130016432D /* Customizations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BDC32E24BF24130016432D /* Customizations.swift */; };
+		74BDC33124BF24190016432D /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BDC33024BF24190016432D /* MainView.swift */; };
+		74BDC33624BF24480016432D /* PageControllerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BDC33524BF24480016432D /* PageControllerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +24,14 @@
 		74BDC31624BF23CC0016432D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		74BDC31824BF23CC0016432D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		74BDC31A24BF23CC0016432D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		74BDC31C24BF23CE0016432D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		74BDC31F24BF23CE0016432D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		74BDC32224BF23CE0016432D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		74BDC32424BF23CE0016432D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74BDC32A24BF24030016432D /* Application.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Application.xcassets; sourceTree = "<group>"; };
+		74BDC32B24BF24030016432D /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		74BDC32E24BF24130016432D /* Customizations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Customizations.swift; sourceTree = "<group>"; };
+		74BDC33024BF24190016432D /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		74BDC33524BF24480016432D /* PageControllerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageControllerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +67,9 @@
 				74BDC31624BF23CC0016432D /* AppDelegate.swift */,
 				74BDC31824BF23CC0016432D /* SceneDelegate.swift */,
 				74BDC31A24BF23CC0016432D /* ContentView.swift */,
-				74BDC31C24BF23CE0016432D /* Assets.xcassets */,
+				74BDC33424BF242C0016432D /* Resources */,
+				74BDC33324BF24230016432D /* Utilities */,
+				74BDC33224BF241C0016432D /* Views */,
 				74BDC32124BF23CE0016432D /* LaunchScreen.storyboard */,
 				74BDC32424BF23CE0016432D /* Info.plist */,
 				74BDC31E24BF23CE0016432D /* Preview Content */,
@@ -73,6 +83,32 @@
 				74BDC31F24BF23CE0016432D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		74BDC33224BF241C0016432D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				74BDC33524BF24480016432D /* PageControllerView.swift */,
+				74BDC33024BF24190016432D /* MainView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		74BDC33324BF24230016432D /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				74BDC32E24BF24130016432D /* Customizations.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		74BDC33424BF242C0016432D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				74BDC32A24BF24030016432D /* Application.xcassets */,
+				74BDC32B24BF24030016432D /* Colors.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,9 +168,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74BDC32D24BF24030016432D /* Colors.xcassets in Resources */,
+				74BDC32C24BF24030016432D /* Application.xcassets in Resources */,
 				74BDC32324BF23CE0016432D /* LaunchScreen.storyboard in Resources */,
 				74BDC32024BF23CE0016432D /* Preview Assets.xcassets in Resources */,
-				74BDC31D24BF23CE0016432D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,6 +185,9 @@
 				74BDC31724BF23CC0016432D /* AppDelegate.swift in Sources */,
 				74BDC31924BF23CC0016432D /* SceneDelegate.swift in Sources */,
 				74BDC31B24BF23CC0016432D /* ContentView.swift in Sources */,
+				74BDC33624BF24480016432D /* PageControllerView.swift in Sources */,
+				74BDC33124BF24190016432D /* MainView.swift in Sources */,
+				74BDC32F24BF24130016432D /* Customizations.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
